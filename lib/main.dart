@@ -11,9 +11,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: CurrencyConvertorMaterialPage()
+    return const MaterialApp( 
+      home: CurrencyConvertorMaterialpage(),
     );
   }
 }
 //const refers that the class doesnt need to be re created twice hence this reduces the erros 
+//cupertino uses minimalist design
+//but materialdesign is good and aestically also good 
